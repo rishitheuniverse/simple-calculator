@@ -1,0 +1,21 @@
+print("hello world")
+print("welcome to calculator made by rishi theuniverse")
+inp1= input("choose Operator")
+inp2 = input("enter First number")
+inp3 = input("enter second number")
+new_input = inp2 + inp1 + inp3
+if inp1 == "*":
+    print(int(inp2) * int(inp3))
+elif inp1 == "+":
+    print(int(inp2) + int(inp3))
+elif inp1 == "-":
+    print(int(inp2) - int(inp3))
+elif inp1 == "/":
+    print(int(inp2) / int(inp3))
+elif inp1 == "%":
+    print("please enter wright operator")
+print("good bye")
+
+
+
+# Rishi theuniverse
